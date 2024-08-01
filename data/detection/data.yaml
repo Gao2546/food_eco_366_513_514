@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 3
-names: ['carbohydrate', 'meat', 'vegetable']
+nc: 32
+names: ['Chicken-Biryani', 'Chicken-porridge', 'Chicken-sticky-rice', 'Crispy-Chicken-Glass-Noodle-Salad', 'Fried-pork-with-rice', 'Grilled-Chicken-with-Rice', 'Khanom-Jeen', 'Omelet-rice', 'Pork-leg-rice', 'Shabu', 'Spaghetti', 'Stir-fried-Rice-Noodles-and-Chicken', 'Stir-fried-chicken-curry-paste', 'Stir-fried-instant-noodles', 'Stir-fried-seafood-noodles', 'Stir-fried-seafood-with-oyster-sauce', 'Stir-fried-squid-with-salted-eggs', 'Tao-Khua', 'carbohydrate', 'fried-mackerel-with-rice', 'fried-rice', 'fried-shrimp-with-tamarind-sauce', 'meat', 'noodle', 'rice-mixed-curry', 'rice-with-roasted-pork', 'salad', 'steak', 'steamed-rice-topped-with-chicken', 'stir-fried-vegetables', 'stried-fried-noodle-with-gravy-sauce', 'vegetable']
 
 roboflow:
   workspace: eco-project-366-513-514
   project: food_detection-600rj
-  version: 1
+  version: 2
   license: CC BY 4.0
-  url: https://universe.roboflow.com/eco-project-366-513-514/food_detection-600rj/dataset/1
+  url: https://universe.roboflow.com/eco-project-366-513-514/food_detection-600rj/dataset/2
