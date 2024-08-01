@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['carbohydrate', 'meat', 'vegetable']
+
+roboflow:
+  workspace: eco-project-366-513-514
+  project: food_detection-600rj
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/eco-project-366-513-514/food_detection-600rj/dataset/1
